@@ -1,0 +1,19 @@
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1;
+
+}
+
+.price{
+    color: red;
+    font-weight: 600;
+    font-size: 17px;
+}
+.card-text{
+    font-weight: 300;
+}
+span{
+    font-weight: 200;
+}

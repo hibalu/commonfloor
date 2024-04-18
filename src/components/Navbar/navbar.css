@@ -1,0 +1,150 @@
+.container-fluid {
+   
+  justify-content: space-between;
+  padding: 18px;
+  display: flex;
+}
+
+.header {
+  width: 100%;
+  background: #111328;
+  min-height: 100px;
+  max-height: 66px;
+  padding: 0;
+  margin:  auto;
+  position: relative;
+  top: 0;
+  z-index: 111;
+}
+.container-left{
+
+    width: 10%;
+
+}
+
+.container-center{
+    width: 47%;
+    margin-left: 60px;
+    border-radius: 3px;
+}
+
+.container-left-logos {
+  display: flex;
+  align-items: center;
+  text-align: center;
+ 
+}
+.ham-burger{
+
+}
+.bi-list {
+  color: white;
+  font-size: 2rem;
+
+}
+
+.dropdowns {
+  display: flex;
+}
+.bi-search {
+  color: white;
+}
+.srchbtn{
+    display: block;
+    font-size: 24px;
+    line-height: 24px;
+    background: #f79100;
+    text-align: center;
+    cursor: pointer;
+   
+    width: 64px;
+    padding: 15px 0 8px;
+    border: 0 solid #fff;
+    border-radius: 0 2px 2px 0;
+    position: absolute;
+    right: 319px;
+    transition: all .3s ease;
+}
+
+.input input{
+    width:385px;
+    border: none;
+    padding: 11px;
+}
+
+.city-dropdown select{
+    padding: 13px;
+  border-top: none;
+  border-bottom: none;
+   border-left:1px black ;
+   cursor: pointer;
+   background-color:#EEEEEE;
+   font-size: 14px;
+   color: #333333;
+   font-weight: 600;
+
+}
+
+.dropdown select{
+    padding: 12px;
+    border-top: none;
+    border-bottom: none;
+     border-left:1px #333333 ;
+     cursor: pointer;
+}
+.container-right{
+    width: 15%;
+    margin-top: 9px;
+}
+
+.profile{
+    margin: 1px auto;
+   
+}
+
+.bi-person-circle{
+    color: white;
+    font-size: 1rem;
+}
+#button{
+   
+    background-color: #16bec3;
+    border: 1px solid #36bda4;
+    color: #fff;
+    border-radius: 0;
+    font-size: 15px;
+margin-top: -5px;
+    height: 38px;
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    font-family: Roboto-Regular, sans-serif;
+    transition: all .2s ease;
+}
+
+.nav{
+    position: absolute;
+    top: 65px;
+
+    
+    display: flex;
+   
+
+}
+
+.nav-items{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    width: 1150px;
+    margin-left: 60px;
+    color: white;
+    justify-content: space-around;
+    font-weight: 600;
+   text-transform: uppercase;
+}

@@ -1,0 +1,70 @@
+.footer-container {
+  background: #f8f8f8;
+  width: 100%px;
+}
+
+.footer-items {
+  margin-left: 60px;
+  
+}
+.left{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.right{
+    width: 60%;
+}
+.logo img{
+    width: 200px;
+ 
+}
+.links {
+  list-style: none;
+  font-weight: 300;
+  line-height: 3;
+  cursor: pointer;
+  margin-top:30px ;
+}
+.google{
+    display: flex;
+    width: 250px;
+    justify-content: center;
+align-items: center;
+border-radius: 2px;
+}
+
+.bi-google-play{
+    font-size: 2rem;
+    margin-right: 20px;
+}
+.google p{
+    font-weight: 100;
+    position: absolute;
+  
+
+}
+.google h6{
+    margin-top: 25px;
+    
+}
+.mobile-app{
+    margin-top: 25px;
+}
+
+.social-media{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.sm-icons{
+    color: #30b;
+font-size: 32px;
+}
+.bi-facebook{
+    margin: 4px;
+}
+
+.bi-youtube{
+    margin: 4px;
+}
